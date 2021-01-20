@@ -39,14 +39,12 @@ function DoctorLkSidebar() {
                 <li className="docside__property">Врач высшей категории</li>
                 <li className="docside__property">Кандидат медицинских наук</li>
             </ul>
-            <div className="docside__stats">
-                <div className="docside__statheader">
-                    <h3 className="docside__statname">Статистика пациентов за:</h3>
-                    <Select className='docside__dropdown' bordered={false} style={{ width: 100 }} onSelect={statDropHandler} defaultValue='month'>
-                        <Select.Option value='month'>месяц</Select.Option>
-                        <Select.Option value='year'>год</Select.Option>
-                    </Select>
-                </div>
+            <div className="docside__statheader">
+                <h3 className="docside__statname">Статистика пациентов за:</h3>
+                <Select className='docside__dropdown' bordered={false}  onSelect={statDropHandler} defaultValue='month'>
+                    <Select.Option value='month'>месяц</Select.Option>
+                    <Select.Option value='year'>год</Select.Option>
+                </Select>
             </div>
             <PieChart width={260} height={260}>
                 <Pie

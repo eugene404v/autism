@@ -1,0 +1,11 @@
+.docCabInput {
+    border: 1px solid #DCE9FF;
+    border-radius: 5px;
+    max-width: 400px;
+    margin-right: 15px;
+    &:focus,
+    &:hover, 
+    &:active {
+        border: 1px solid #4293E1;
+    }
+}
