@@ -1,0 +1,63 @@
+.doc-cabinet {
+    max-width: 1480px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+
+    &__sidebar {
+        background-color: #fff;
+        width: 320px;
+        padding: 15px;
+    }
+}
+
+.docside {
+    &__headline {
+        display: flex;
+        padding-bottom: 12px;
+        border-bottom: 1px solid #DCE9FF;
+    }
+    &__titles {
+        margin-left: 18px;
+    }
+    &__name {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 140%;
+        margin-bottom: 5px;
+    }
+    &__job {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 144.19%;
+        color: #7AB3EA;
+    }
+    &__properties {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid #DCE9FF;
+        list-style: none;
+        padding-left: 0;
+    }
+    &__property {
+        position: relative;
+        padding-left: 14px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        &:not(:last-child) {
+            margin-bottom: 10px;
+        }
+        &:before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: #DCE9FF;
+        }
+    }
+}

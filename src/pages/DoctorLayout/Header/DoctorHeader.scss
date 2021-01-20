@@ -1,0 +1,25 @@
+.doctor-header {
+    width: 100%;
+    background-color: #fff;
+    &__wrapper {
+        max-width: 1480px;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        height: 50px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__logout {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 22px;
+        color: #7AB3EA
+    }
+    &__to-lk {
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+        color: #4293e1;
+    }
+}

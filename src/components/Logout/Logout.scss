@@ -1,0 +1,10 @@
+.logout {
+    &__btn {
+        border: none;
+        background: transparent;
+        cursor: pointer;
+        & img {
+            margin-left: 15px;
+        }
+    }
+}
