@@ -4,4 +4,8 @@
     box-sizing: border-box;
     border-radius: 5px;
     color: #fff;
+    &:hover {
+        background: #7ab3ea;
+        color: #fff;
+    }
 }
